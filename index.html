@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALIENS-R-REAL</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+
+    <link rel="stylesheet" href="static/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="display-3">ALIENS-R-REAL!</h3>
+            <p class="lead">WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <div class="span6" style="float: none; margin: 0 auto;">
+                        <div class="row">
+
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control-sm checkbox" id="date_time" placeholder="date/time">
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control-sm checkbox" id="city" placeholder="city">
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control-sm checkbox" id="state" placeholder="state">
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control-sm checkbox" id="country" placeholder="country">
+                            </div>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control-sm checkbox" id="shape" placeholder="shape">
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <hr />
+                    </div>
+
+                    <div class="row">
+                        <div class="span6" style="float: none; margin: 0 auto;">
+                            <button id="search" type="button" class="btn-sm btn-outline-secondary">Search</button>
+                            <button id="load" type="button" class="btn-sm btn-outline-secondary">Reload</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <div>
+                    <div class="span6" style="float: none; margin: 0 auto;">
+                        <table id="example" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Datetime</th>
+                                    <th>City</th>
+                                    <th>State</th>
+                                    <th>Country</th>
+                                    <th>Shape</th>
+                                    <th>Duration</th>
+                                    <th>Comments</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="span6" style="float: none; margin: 0 auto;">
+                            <button id="prev" type="button" class="btn-sm btn-outline-secondary">Prev Page!</button>
+                            <button id="next" type="button" class="btn-sm btn-outline-secondary">Next Page!</button>
+                            <hr class="my-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="data.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
